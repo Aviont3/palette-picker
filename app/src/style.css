@@ -1,0 +1,64 @@
+#body {
+  background-color: #222;
+  /* color: #fff; */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#creation-card {
+  display: grid;
+  align-content: center;
+
+  width: 11rem;
+
+  background-color: blueviolet;
+  border: 2rem brown;
+  padding: 1rem;
+  margin: 3rem;
+  justify-content: center;
+  border-width: 1rem;
+  border-color: black;
+}
+#form-head {
+  font-style: italic;
+}
+form {
+  border: black;
+  border-width: 3rem;
+  border-radius: 1rem;
+  /* display: grid; */
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  width: 90%;
+  list-style: none;
+}
+#temperatures {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+span.text {
+  color: white;
+}
+#creation-colors {
+  display: grid;
+}
+
+li {
+  width: 12rem;
+
+  background-color: blueviolet;
+  border: solid brown;
+  padding: 1rem;
+  margin: 3rem;
+  justify-content: center;
+  border-width: 2px;
+  border-color: black;
+}
