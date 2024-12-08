@@ -7,14 +7,6 @@ import {
   deletePalette,
 } from "./local-storage.js";
 
-// const renderPalette = () => {
-//   const paletteList = document.querySelector("ul#created-palette");
-//   paletteList.innerHTML = "";
-
-//   const palettes = getPalettes();
-
-//   addEachPalette(palettes);
-// };
 const handleSubmit = (e) => {
   e.preventDefault();
   const form = e.target;
@@ -75,11 +67,7 @@ export const setupCopyButtons = () => {
   });
 };
 
-//temperature();
-
 const main = () => {
-  //temperature();
-  //renderPalette();
   initializePalettesIfEmpty();
   addEachPalette(getPalettes());
   setupCopyButtons();
